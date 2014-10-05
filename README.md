@@ -23,7 +23,7 @@ In order to use the program, simply make the following call:
 ./downloadDeleter <downloadDirectory>
 ```
 
-The following options are also available:
+The following options are also available:  
 `-r` - Recursively search directories, deleting files that are in any 
 subdirectories as well.  
 `-v` - Verbose: Display any debug messages that will allow the user to see
