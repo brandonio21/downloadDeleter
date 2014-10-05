@@ -33,3 +33,20 @@ is 30).
 
 By default, this program does not delete any directories, just their contents.
 
+
+
+
+#### Systemd Integration ####
+After running `make`, .service and .timer files are populated within the 
+working directory. These files can then be moved into the systemd service
+directory and daily operation can then be enabled.
+
+For example,
+```
+make
+sudo cp downloadDeleter.service /etc/systemd/system
+sudo cp downloadDeleter.timer /etc/systemd/system
+sudo systemctl enable downloadDeleter.timer
+```
+The download deleter should then run daily!
+
