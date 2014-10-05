@@ -1,8 +1,0 @@
-[Unit]
-Description=Stale-Download-File deleter
-
-[Service]
-Nice=19
-IOSchedulingClass=2
-IOSchedulingPriority=7
-ExecStart=/home/brandon/Dropbox/C/downloadDeleter/downloadDeleter
