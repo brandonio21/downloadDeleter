@@ -1,6 +1,14 @@
 downloadDeleter.c
 =================
 
+## Deprecation Warning
+At one time, this code was maintained and supported. If you are looking to 
+peruse the code and submit patches, feel free.
+
+However, if you are planning on using downloadDeleter.c on your system, please
+instead use its spiritual successor,
+[download-sweeper](https://github.com/brandonio21/download-sweeper)
+
 This program is meant to be run periodically (generally on a cron job) and point
 to the user's download directory. By default, this will automatically delete 
 files that haven't been accessed in more than 30 days. This allows the user
